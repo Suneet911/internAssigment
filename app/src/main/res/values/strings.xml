@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">InternAssignment</string>
+    <string name="welcome">Welcome!</string>
+    <string name="create_your_new_account">Create your new account</string>
+    <string name="email">Email</string>
+    <string name="state">State</string>
+    <string name="password">Password</string>
+    <string name="re_enter_password">Re-enter password</string>
+    <string name="submit">Submit</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="hello">Hello</string>
+    <string name="user_detail"><u>User Detail</u></string>
+    <string name="name">Name:</string>
+    <string name="email_">Email:</string>
+    <string name="phone_number_">Phone Number:</string>
+</resources>
