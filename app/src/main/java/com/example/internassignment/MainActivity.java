@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 import com.example.internassignment.databinding.ActivityMainBinding;
+import com.example.internassignment.model.UserModel;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,10 +33,14 @@ public class MainActivity extends AppCompatActivity {
                     String username=intent.getStringExtra("username");
                     String email=intent.getStringExtra("email");
                     String phone=intent.getStringExtra("phone");
+                    String state=intent.getStringExtra("state");
+                    String country=intent.getStringExtra("country");
 
                     binding.userName.setText(username);
                     binding.userEmail.setText(email);
                     binding.userPhone.setText(phone);
+                    binding.userState.setText(state);
+                    binding.userCountry.setText(country);
 
                 }
             }

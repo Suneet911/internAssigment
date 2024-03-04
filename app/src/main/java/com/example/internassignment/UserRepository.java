@@ -1,13 +1,11 @@
 package com.example.internassignment;
 
-import android.app.Application;
 import android.content.Context;
 import android.os.AsyncTask;
-import android.service.autofill.UserData;
 
 import androidx.lifecycle.LiveData;
 
-import java.util.List;
+import com.example.internassignment.model.UserModel;
 
 public class UserRepository {
     private final UserDao userDao;

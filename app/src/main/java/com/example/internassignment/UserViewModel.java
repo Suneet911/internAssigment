@@ -1,10 +1,11 @@
 package com.example.internassignment;
 
-import android.app.Application;
 import android.content.Context;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.ViewModel;
+
+import com.example.internassignment.model.UserModel;
 
 public class UserViewModel extends ViewModel {
     private  UserRepository userRepository;

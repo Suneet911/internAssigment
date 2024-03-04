@@ -6,7 +6,9 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
-@Database(entities = {UserModel.class}, version = 1)
+import com.example.internassignment.model.UserModel;
+
+@Database(entities = {UserModel.class}, version = 2)
 public abstract class UserDatabase extends RoomDatabase {
 
     private static UserDatabase instance;

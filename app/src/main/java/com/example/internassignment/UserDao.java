@@ -6,6 +6,8 @@ import androidx.room.Insert;
 import androidx.room.OnConflictStrategy;
 import androidx.room.Query;
 
+import com.example.internassignment.model.UserModel;
+
 @Dao
 public interface UserDao {
     @Query("SELECT * FROM user_table")
